@@ -14,9 +14,12 @@ plugins:
       database: postgres
       filter_schemas:
       - public
-      host: aws-1-ap-northeast-2.pooler.supabase.com
+      host: aws-1-ap-south-1.pooler.supabase.com
       port: 5432
-      user: postgres.hdsstnshkjzcccdaxlsb
+      user: postgres.wfywfpvwzuovbgmvitpg
+      ssl_mode: require
+    select:
+    - public-resale_flat_prices_from_jan_2017.*
   loaders:
   - name: target-bigquery
     variant: z3z1ma

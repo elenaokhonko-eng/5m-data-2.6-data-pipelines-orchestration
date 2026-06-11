@@ -1,0 +1,30 @@
+[0m23:43:57.093768 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5461b6790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd546364390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5461dab90>]}
+
+
+============================== 23:43:57.097068 | 3092ebeb-d498-416d-bc8f-179d33b9d651 ==============================
+[0m23:43:57.097068 [info ] [MainThread]: Running with dbt=1.10.9
+[0m23:43:57.097463 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'version_check': 'True', 'send_anonymous_usage_stats': 'True', 'target_path': 'None', 'fail_fast': 'False', 'warn_error': 'None', 'introspect': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'write_json': 'True', 'use_experimental_parser': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'profiles_dir': '/home/dancer/.dbt', 'quiet': 'False', 'static_parser': 'True', 'log_path': 'logs', 'printer_width': '80', 'log_format': 'default', 'invocation_command': 'dbt init resale_flat', 'empty': 'None', 'partial_parse': 'True', 'cache_selected_only': 'False', 'log_cache_events': 'False', 'debug': 'False'}
+[0m23:43:57.110969 [debug] [MainThread]: Starter project path: /home/dancer/miniconda3/envs/elt/lib/python3.11/site-packages/dbt/include/starter_project
+[0m23:43:57.117414 [info ] [MainThread]: 
+Your new dbt project "resale_flat" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m23:43:57.117786 [info ] [MainThread]: Setting up your profile.
+[0m23:45:27.792887 [info ] [MainThread]: Profile resale_flat written to /home/dancer/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m23:45:27.793978 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 90.74043, "process_in_blocks": "413312", "process_kernel_time": 2.336344, "process_mem_max_rss": "375148", "process_out_blocks": "80", "process_user_time": 5.207157}
+[0m23:45:27.794459 [debug] [MainThread]: Command `dbt init` succeeded at 23:45:27.794399 after 90.74 seconds
+[0m23:45:27.794695 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd546238410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd546466790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd54aa54490>]}
+[0m23:45:27.794918 [debug] [MainThread]: Flushing usage events
+[0m23:45:29.233582 [debug] [MainThread]: An error was encountered while trying to flush usage events
